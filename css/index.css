@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent {
+   display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color:#D3D3D3;
+  height: 100vh;
+ 
+}
+#score {
+  display: inline-block;
+}
+#scoreboard {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: monospace;
+}
